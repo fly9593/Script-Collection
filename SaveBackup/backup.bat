@@ -3,8 +3,8 @@ chcp 65001 > nul
 setlocal
 
 rem 设置存档路径和备份路径（默认值）
-rem set "archive_path=C:\Users\fly\AppData\Local\Cosmic_Wheel_of_Fortuna\saves\4660"
-rem set "backup_path=E:\qwer\The Cosmic Wheel Sisterhood\存档"
+rem set "archive_path="
+rem set "backup_path="
 
 rem 从.ini文件中读取archive_path和backup_path的值
 for /f "usebackq tokens=1,* delims==" %%A in ("backup.ini") do (
